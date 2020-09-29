@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/mycolor</item>
+        <item name="colorPrimaryDark">@color/mycolor</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="textStyle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/mycolor</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/shrikhand</item>
+        <item name="android:textStyle">bold|italic</item>
+
+    </style>
+
+    <style name="textStyle2">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#054e56</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/lcall</item>
+        <item name="android:textStyle">italic</item>
+
+    </style>
+
+    <style name="textStyle3">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/mycolor</item>
+        <item name="android:fontFamily" tools:ignore="NewApi">@font/shrikhand</item>
+        <item name="android:textStyle">bold|italic</item>
+
+    </style>
+
+</resources>

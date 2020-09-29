@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/action_home"
+        android:backgroundTint="#ffffff"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/action_search"
+        android:backgroundTint="#ffffff"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_support"
+        android:title="@string/Support"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_language"
+        android:title="@string/language"
+        app:showAsAction="never">
+        <menu
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto">
+            <item
+                android:id="@+id/action_arabic"
+                android:title="@string/Arabic"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/action_english"
+                android:title="@string/English"
+                app:showAsAction="never"/>
+
+        </menu>
+
+    </item>
+
+
+
+
+</menu>
